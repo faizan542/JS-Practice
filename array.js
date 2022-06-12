@@ -60,7 +60,7 @@ for(i = 0; i < arr.length; i++){
 console.log(thirdLargest);
 
 
-// ------------short method to find the largest second largest number in array----------
+// ------------Find 2nd max number in array with single loop----------
 
 var newArray = [19, 28, 2, 10, 32, 12,];
 
@@ -68,6 +68,7 @@ var large = newArray[0];
 var secondLarge = newArray[0];
 var thirdLarge = newArray[0];
 
+// 2nd large array with single loop
 for(i = 0; i < newArray.length; i++){
     if(newArray[i] > large){
         secondLarge = large;
@@ -76,14 +77,15 @@ for(i = 0; i < newArray.length; i++){
 }
 console.log(secondLarge);
 
+// 3rd large array with single loop
 for(i = 0; i < newArray.length; i++){
     if(newArray[i] > secondLarge && newArray[i] > large){
+        secondLarge = large;
         thirdLarge = secondLarge;
         secondLarge = newArray[i];
     }
 }
-console.log(thirdLarge); // This value is dependent on second large value because first you have to
-// find the second large number than you are able to find the third large number.
+console.log(thirdLarge); 
 // ------------End of Finding a Max Value in Array--------------------------------
 
 
