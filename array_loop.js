@@ -1,5 +1,4 @@
-// ------------------------------PDF Assisgnment Questions--------------------------------
-// ------------------------------------Chapter 17-20------------------------------------
+// ------------------------------PDF Assisgnment Questions Chapter 17-20--------------------------------
 
 // Q:1 Declare and initialize an empty multidimensional array.(Array of arrays)
 var emptArr = [[] + [] + []];
