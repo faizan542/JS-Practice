@@ -197,6 +197,5 @@ var devices = ["keyboard", "mouse", "printer", "monitor"];
 
 // Q:15 Write a program to store phone manufacturers (Apple,Samsung, Motorola, Nokia, Sony & Haier) in an array. Display the following dropdown/select menu in your browser using document.write() method
 
-var phoneManufacturer = ["<select>" + "<option value='apple'>Apple</option>" + "<option value='samsung'>Samsung</option>" + "<option value='motorola'>Motorola</option>" + "<option value='nokia'>Nokia</option>" + "<option value='sony'>Sony</option>" + "<option value='haier'>Haier</option>" + "</select>"]
-
-document.write("Phone Manufacturers: " + phoneManufacturer + "<br>");
+// var phoneManufacturer = ["<select>" + "<option value='apple'>Apple</option>" + "<option value='samsung'>Samsung</option>" + "<option value='motorola'>Motorola</option>" + "<option value='nokia'>Nokia</option>" + "<option value='sony'>Sony</option>" + "<option value='haier'>Haier</option>" + "</select>"]
+// document.write("Phone Manufacturers: " + phoneManufacturer + "<br>");
