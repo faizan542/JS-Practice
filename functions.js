@@ -130,3 +130,42 @@
 //     return sentence.join(" ");
 // }
 // document.write(capital());
+
+
+// Q:12 Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
+// function longestWord(str) {
+//     var longestWord = str.split(' ').sort(function (a, b) { return b.length - a.length; });
+//     return longestWord[0];
+// }
+// document.write(longestWord("Web Development Tutorial"));
+
+// Q:13  Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.
+
+// function charCount(str, letter) {
+//     var letterCount = 0;
+//     for (i = 0; i < str.length; i++) {
+//         if (str.charAt(i) == letter) {
+//             letterCount += 1;
+//         }
+//     }
+//     return letterCount;
+// }
+// document.write(charCount('w3resourcecom', 'o'));
+
+
+// Q:14 Create 2 functions that calculate properties of a circle, using the definitions here
+// a: Create a function called calcCircumference:
+
+// function calculateCircumference(radius) {
+//     return 2 * Math.PI * radius;
+//   }
+//   document.write(Math.PI + "<br>");
+//   document.write(calculateCircumference(15)
+//   );
+
+//   b: Create a function called calcArea:
+// function calculateArea(radius){
+//     var area = Math.PI * radius * radius;
+//     return area;
+// }
+// document.write(calculateArea(9));
