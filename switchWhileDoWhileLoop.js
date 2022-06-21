@@ -169,7 +169,7 @@
 //     var distribution100 = Math.floor(amount / note[0]);
 //     var distribution50 = Math.floor((amount - (distribution100 * 100)) / note[1])
 //     var distribution10 = Math.floor((amount - (distribution100 * 100 + distribution50 * 50)) / note[2])
-//     var distribution1 = Math.floor((amount - (distribution100 * 100 + distribution50 * 50 + distribution10 * 1)) / note[3])
+//     var distribution1 = Math.floor((amount - (distribution100 * 100 + distribution50 * 50 + distribution10 * 10)) / note[3])
     
 //     return document.write("You have " + distribution100 + " hundred notes, ", + distribution50 + " fifty notes, " + distribution10 + " ten notes and " + distribution1 + " coin");
 // }
