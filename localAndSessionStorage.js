@@ -39,3 +39,10 @@ sessionStorage.setItem('Country', JSON.stringify(arrr));
 
 let getCountryArray = JSON.parse(sessionStorage.getItem('Country'));
 console.log(countryArray);
+
+
+
+// sessionStorage is similar to localStorage ; the difference is that while data in localStorage
+//  doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document
+//  is loaded in a particular tab in the browser, a unique page session gets created and assigned to 
+// that particular tab.
