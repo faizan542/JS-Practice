@@ -11,13 +11,13 @@ localStorage.setItem('Name2', 'Ghulam Qadir');
 
 //// Get Item from the local storage
 let name = localStorage.getItem('Name');
-console.log(name);
+// console.log(name);
 
 let arrr = ['Karachi', 'Lahore', 'Islamabad'];
 localStorage.setItem('Cities', JSON.stringify(arrr));
 
 let cityName = JSON.parse(localStorage.getItem('Cities'));
-console.log(cityName)
+// console.log(cityName)
 
 //// SESSION STORAGE
 //// Add a key value in session storage
@@ -32,13 +32,13 @@ sessionStorage.setItem('sessionName2', 'Ghulam Qadir');
 
 //// Get Item from the session storage
 let sessionName = sessionStorage.getItem('sessionName2');
-console.log(sessionName);
+// console.log(sessionName);
 
 let countryArray = ['Pakistan', 'Turkey', 'Saudia Arabia'];
 sessionStorage.setItem('Country', JSON.stringify(arrr));
 
 let getCountryArray = JSON.parse(sessionStorage.getItem('Country'));
-console.log(countryArray);
+// console.log(countryArray);
 
 
 
