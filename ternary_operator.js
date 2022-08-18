@@ -14,3 +14,9 @@ var age = 7;
 var stops;
 
 age >= 18 ? (console.log("You can go"), stops = false) : (console.log("Kids are not allowed"), stops = true);
+
+var firstChecked = false;
+var secondChecked = false;
+var access;
+access = firstChecked ? "Access Denied" : secondChecked ? "Access Denied" : "Access Granted";
+console.log(access);
