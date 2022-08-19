@@ -1,5 +1,5 @@
-<!-- ternary operator -->
-<!-- events -->
+ternary operator
+events
 Callback function
 Array.from
 Spread operator
