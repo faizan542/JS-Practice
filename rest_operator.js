@@ -9,13 +9,15 @@
 // }
 // sum(20,30,40,50);
 // sum("Faizan",20,30,40,50); 
+
 //// agr hum koi bhi string use kre gai tau ye function properly work nahi kre ga or ye sari values ko 
 //// string mai convert kr de ga is situation se bachne k liye hume rest operator(...) use krna pre ga.
 //// REST Opearator hamesha arguments k last mai aay ga.
+//// function k parameters mai use hoga rest operater. examples are given below.
 function sum(name, ...args){
     document.write(`Hi ${name} : `)
     let sum = 0;
-    console.log(args)
+    console.log(arguments)
     for(let i in args){
         sum += args[i];
     }
